@@ -24,9 +24,9 @@ class Person implements Iperson {
 //forma simplificada dedeclarar funções
 class PersonRefact {
     constructor(
-        id: number,
-        name: string,
-        age: number,
+        private id: number,
+        private name: string,
+        private age: number,
     ){}
 
     sayMyName(): string{
