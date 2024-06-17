@@ -31,6 +31,5 @@ class PersonRefact {
 
     sayMyName(): string{
         return this.name;
-        
     }
 }
