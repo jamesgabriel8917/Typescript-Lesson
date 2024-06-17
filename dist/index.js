@@ -23,4 +23,8 @@ var Direction;
     Direction[Direction["Down"] = 2] = "Down";
 })(Direction || (Direction = {}));
 const direction = Direction.Down;
+//type assertions
+const productName = "Ai ai ai";
+//let itemId = productName
+let itemId = productName;
 console.log(age);
